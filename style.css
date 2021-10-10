@@ -1,0 +1,135 @@
+/*General topics*/
+
+/*color*/
+h1 {
+    font: 2.0cm;
+    /*UnitA1*/
+    color: rgb(71, 143, 71);
+    /*UnitR1*/
+    line-height: 0.5em;
+    display:inline
+}
+
+/*text color*/
+/*element selectors*/
+
+h2 {
+    color: hsl(14, 51%, 49%);
+    font-size: 4vh;
+    line-height: 20pt;
+
+}
+
+h2:active{
+    color:rgb(131, 116, 201);
+}
+
+/*background*/
+h3{
+    color: #447494;
+    background-color:pink;
+    /*UnitA2 A3*/
+    font-size: 20px;
+}
+ h3:hover{
+     background-color: rgb(60, 94, 60);
+ }
+
+ 
+
+/*Box*/
+/*longmargin*/
+/*long pading*/
+/*border*/
+/*position*/
+.box1 {
+    border-style: double;
+    border-color:pink;
+    border-width: medium;
+    border-radius: 20%;
+    margin-top: 10px;
+    margin-right:50px;
+    margin-bottom:50px;
+    margin-left:20px;
+    padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  position:static;
+}
+
+/*shortmargin*/
+
+.box2 {
+   border:1px solid rgb(17, 16, 16);
+   margin: 50px,20px,50px,20px;
+   padding: 10x,10px,10px,10px;
+   max-height: 100%;
+   position: relative
+}
+
+#box3 {
+    border:1px solid pink;
+    min-width: 100%;
+    max-height: 400px;
+    height:100px;
+    width:50%;
+    margin: auto;
+ }
+
+ /*selectors*/
+ 
+/*class*/
+.changecolor span{
+        background-color:black;
+        color:hsl(226, 28%, 91%)
+}
+
+li{
+    font-size: 3ch;
+    display:block
+}
+
+/*id*/
+#centered {
+    text-align: center;
+}
+
+#delete{
+    text-decoration: line-through;
+}
+
+/*universal*/
+*{
+    background-color: white;
+}
+ /*attritube*/
+ a[href^="#"]{
+     color:rgb(212, 146, 185);
+ }
+
+ /*selector list*/
+ p, label{
+    font-size: 0.5cm;
+}
+
+/*combinators*/
+fieldset label{
+    color:black;
+}
+
+section > h3{
+    text-align: center;
+}
+
+h4 ~ ul{
+    text-align: center;
+}
+
+h1 + h2{
+    text-decoration:overline;
+}
+
+label.red{
+    color:pink;
+}
